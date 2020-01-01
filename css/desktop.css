@@ -1,0 +1,94 @@
+.navbar .container {
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-icons {
+  grid-column: 10 / 13;
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.col-desktop-3 {
+  grid-column: 1 / 4;
+}
+
+
+#footer-main {
+  grid-column: 4 / 10;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  grid-column: 1 / 6;
+}
+
+.map {
+  grid-column: 6 / 13;
+}
+
+.projects-sidebar {
+  grid-column: 2 / 6;
+  margin-right: 30px;
+}
+
+.project {
+  grid-column: 6 / 12;
+}
+
+.team-member-card {
+  /*grid-column: 1 / 5;*/
+}
+
+.team-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.hero h2 {
+  font-weight: bold;
+  font-size: 42px !important;
+  color: #fff;
+  margin: 0;
+}
+
+.hero h2 div {
+  margin-bottom: 10px;
+}
+
+
+.hero h2 div>span {
+  display: inline-block;
+  background-color: #df678c;
+  padding: 0 40px;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.hero h2 div>span>span {
+  display: inline-block;
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+
+.hero-heading {
+  margin-top: 100px;
+  grid-column:  8 / 13;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.hero .container {
+  height: 100vh;
+}

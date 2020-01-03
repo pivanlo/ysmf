@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #888;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   margin: 0;
 }
@@ -49,15 +49,12 @@ a, a:hover {
 
 .navbar {
   position: fixed;
+  margin-top: 50px;
   height: 120px;
   width: 100%;
   background-color: #3c1053;
   z-index: 1;
   top: 0;
-}
-
-#home .navbar {
-  margin-top: 50px;
 }
 
 .navbar ul {
@@ -73,6 +70,18 @@ a, a:hover {
   color: #fff;
   font-weight: bold;
   padding: 0 12px;
+}
+
+.navbar-small {
+  height: 105px;
+}
+
+.navbar-small a {
+  line-height: 105px;
+}
+
+.navbar-small #logo img {
+  height: 45px;
 }
 
 .navbar a:hover {
@@ -492,7 +501,7 @@ h2.contact-title {
 .header {
   padding: 40px 0;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 155px;
 }
 
 .header h1 {
@@ -500,8 +509,8 @@ h2.contact-title {
 }
 
 .secondary-bg {
-  background: #df678c;
-  color: #fff;
+  background: #e7eee7;
+  color: #333;
 }
 
 .primary-bg {
@@ -611,7 +620,7 @@ h3 {
 }
 
 .secondary-bg h1, .secondary-bg h2 {
-  color: #fff;
+  color: #333;
 }
 
 h5 {
@@ -778,17 +787,10 @@ input, textarea {
 }
 
 .partner {
-  background-color: #f5f5f5;
-  text-align: center;
-  min-height: 200px;
+  margin: 0 auto;
 }
 
-.partner-name {
-  color: #3c1053;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.partner-logo-container {
-  padding: 50px;
+.partner img {
+  height: 150px;
+  opacity: 0.6;
 }

@@ -8,7 +8,7 @@ body {
 }
 
 .navbar .container {
-  padding: 13px 30px 8px;
+  padding: 25px;
   line-height: 20px;
 }
 
@@ -101,7 +101,7 @@ h2 {
 }
 
 #logo img {
-  margin: 20px auto;
+  margin: 25px auto;
 }
 
 .nav-desktop {
@@ -133,7 +133,7 @@ h2 {
 }
 
 #hero-mobile {
-  padding: 20px;
+  padding: 25px;
   background-color: #df678c;
   font-size: 26px;
   color: #fff;
@@ -141,12 +141,8 @@ h2 {
   text-align: center;
 }
 
-#mission {
-  padding-top: 30px;
-}
-
-.container {
-  padding: 0 60px;
+#vision, #mission {
+  padding: 50px;
 }
 
 
@@ -158,34 +154,51 @@ h2 {
 .footer-container img {
   width: 60%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 50px;
   max-width: 300px;
 }
 
 #copyright {
   margin-bottom: 20px;
-}
-
-
-.footer-container>div {
-  margin-bottom: 40px;
-}
+} 
 
 .footer {
-  padding: 40px;
-  padding-bottom: 0;
+  padding: 50px;
 }
 
 #about {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.vision-container {
-  padding: 30px 0;
+  padding: 50px;
 }
 
 
 #partners-container {
   padding-top: 30px;
+}
+
+#message img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#message {
+  text-align: center;
+}
+
+#message p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer-heading {
+  margin-top: 25px;
+}
+
+.footer-container {
+  margin-top: -25px;
+}
+
+.footer-bottom .footer-container {
+  margin-top: 0px;
 }

@@ -20,10 +20,6 @@ p {
   margin: 0;
 }
 
-a, a:hover {
-  color: #92b;
-}
-
 .navbar-top {
   position: absolute;
   height: 50px;
@@ -76,7 +72,6 @@ a, a:hover {
 }
 
 .navbar a:hover {
-  color: #df678c;
   text-decoration: none;
 }
 
@@ -153,11 +148,6 @@ img.floating-image {
 .footer-bottom {
   background-color: #f5f5f5;
   padding: 20px;
-}
-
-.footer-bottom .footer-container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer-heading {
@@ -474,7 +464,6 @@ h2.contact-title {
 }
 
 .header {
-  margin-top: 150px;
   padding: 40px 0;
   text-align: center;
 }
@@ -562,11 +551,6 @@ h2.contact-title {
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .footer-container {
@@ -771,4 +755,31 @@ input, textarea {
 
 #home .partner img {
   opacity: 0.7;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+#message {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 200px auto;
+}
+
+#message p {
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  margin-left: 40px;
+}
+
+.vision-container {
+  background-color: #f5f5f5;
+}
+
+#partners-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
 }

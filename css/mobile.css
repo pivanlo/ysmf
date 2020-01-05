@@ -48,10 +48,6 @@ h2 {
   font-size: 14px;
 }
 
-form {
-  margin: 0 20px;
-}
-
 .col-mobile-12 {
   grid-column: 1 / 13;
 }
@@ -145,10 +141,51 @@ form {
   text-align: center;
 }
 
-#vision, #mission {
-  padding-top: 40px;
+#mission {
+  padding-top: 30px;
 }
 
 .container {
-  padding: 0 20px;
+  padding: 0 60px;
+}
+
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-container img {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+#copyright {
+  margin-bottom: 20px;
+}
+
+
+.footer-container>div {
+  margin-bottom: 40px;
+}
+
+.footer {
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.vision-container {
+  padding: 30px 0;
+}
+
+
+#partners-container {
+  padding-top: 30px;
 }

@@ -123,13 +123,52 @@
   width: 800px;
 }
 
-#vision {
+#about {
   margin-top: 100vh;
   width: 800px;
-  padding-top: 80px;
+  padding: 60px 0;
+}
+
+#vision {
+  width: 800px;
 }
 
 #mission {
   width: 800px;
-  padding-top: 80px;
+  padding-top: 60px;
+}
+
+.nav-desktop li:hover {
+  background-color: #df678c;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-container img {
+  width: 100%;
+}
+
+.footer-bottom .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-mobile {
+  display: none;
+}
+
+.vision-container {
+  padding: 60px 0;
+}
+
+#partners-container {
+  padding-top: 60px;
 }

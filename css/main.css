@@ -128,10 +128,6 @@ img.floating-image {
   font-weight: bold;
 }
 
-.btn-form {
-  margin-top: 20px;
-}
-
 .btn:hover:enabled, .btn:active {
   background-color: #df678c;
   border: none !important;

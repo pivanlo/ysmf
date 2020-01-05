@@ -180,6 +180,6 @@
   margin-top: 160px;
 }
 
-#founders-message #message p {
+#founders-message #message>div {
   margin-left: 50px;
 }

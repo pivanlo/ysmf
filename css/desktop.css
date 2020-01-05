@@ -55,7 +55,7 @@
 
 .hero h2 {
   font-weight: bold;
-  font-size: 42px !important;
+  font-size: 40px;
   color: #fff;
   margin: 0;
 }
@@ -91,4 +91,45 @@
 
 .hero .container {
   height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  background-color: #3c1053;
+  z-index: 1;
+  top: 50px;
+  padding: 0 20px;
+}
+
+.navbar a {
+  display: inline-block;
+  line-height: 120px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 12px;
+}
+
+#logo img {
+  margin-top: 30px;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.container-narrow {
+  width: 800px;
+}
+
+#vision {
+  margin-top: 100vh;
+  width: 800px;
+  padding-top: 80px;
+}
+
+#mission {
+  width: 800px;
+  padding-top: 80px;
 }

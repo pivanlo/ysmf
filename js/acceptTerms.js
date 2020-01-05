@@ -31,7 +31,7 @@ function handleSubmit(event) {
   if (!$name.val()) {
     event.preventDefault();
     event.stopPropagation();
-    var message = 'Por favor introduce tu nombre.';
+    var message = 'Please enter your name.';
     var $container = $name.parent();
     showMessage(message, $container);
     $name.addClass('has-error');
@@ -43,7 +43,7 @@ function handleSubmit(event) {
   if (!emailValue) {
     event.preventDefault();
     event.stopPropagation();
-    var message = 'Porfavor introduce tu correo electrónico.';
+    var message = 'Please enter your email.';
     var $container = $email.parent();
     showMessage(message, $container);
     $email.addClass('has-error');
@@ -51,7 +51,7 @@ function handleSubmit(event) {
   } else if (!validateEmail(emailValue)) {
     event.preventDefault();
     event.stopPropagation();
-    var message = 'El correo electrónico no tiene un formato válido.';
+    var message = 'The email is not in a valid format.';
     var $container = $email.parent();
     showMessage(message, $container);
     $email.addClass('has-error');
@@ -62,7 +62,7 @@ function handleSubmit(event) {
   if (!$message.val()) {
     event.preventDefault();
     event.stopPropagation();
-    var message = 'Por favor introduce tu mensaje.';
+    var message = 'Please enter your message.';
     var $container = $message.parent();
     showMessage(message, $container);
     $message.addClass('has-error');

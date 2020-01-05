@@ -25,13 +25,14 @@ a, a:hover {
 }
 
 .navbar-top {
-  position: fixed;
+  position: absolute;
   height: 50px;
   width: 100%;
   background-color: #df678c;
   color: #fff;
   z-index: 1;
   top: 0;
+  padding: 0 20px;
 }
 
 .navbar-top a {
@@ -48,13 +49,11 @@ a, a:hover {
 }
 
 .navbar {
-  position: fixed;
-  margin-top: 50px;
-  height: 120px;
+  position: absolute;
   width: 100%;
   background-color: #3c1053;
   z-index: 1;
-  top: 0;
+  top: 50px;
 }
 
 .navbar ul {
@@ -62,14 +61,6 @@ a, a:hover {
   padding: 0;
   margin: 0;
   margin: 0 -10px;
-}
-
-.navbar a {
-  display: inline-block;
-  line-height: 120px;
-  color: #fff;
-  font-weight: bold;
-  padding: 0 12px;
 }
 
 .navbar-small {
@@ -90,25 +81,25 @@ a, a:hover {
 }
 
 .hero {
+  position: absolute;
+  top: 0;
   background-image: url("../images/woman-white-wall-2k.jpg");
   background-size: cover;
-  background-position: -100px 0px;
+  background-position: -150px 0px;
   height: 100vh;
   width: 100%;
+  z-index: -1;
 }
 
 .navbar-nav {
   display: flex;
   margin: 0;
   padding-left: 0px;
-  margin-left: -40px;
-}
-
-.navbar-brand {
-  margin: 0 auto;
+  justify-content: center;
 }
 
 #logo {
+  display: block;
   padding: 0;
 }
 
@@ -117,7 +108,7 @@ a, a:hover {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  color: #666 !important;
+  color: #fff !important;
   letter-spacing: 1.5px;
   margin-left: 40px;
   white-space: nowrap;
@@ -153,15 +144,15 @@ img.floating-image {
 }
 
 .footer {
-  background-color: #3c1053;
-  padding: 40px 0px;
-  color: #fff;
+  background-color: #fff;
+  padding: 40px 20px;
+  color: #aaa;
   line-height: 18px;
 }
 
 .footer-bottom {
-  background-color: #df678c;
-  padding: 20px 0px;
+  background-color: #f5f5f5;
+  padding: 20px;
 }
 
 .footer-bottom .footer-container {
@@ -175,7 +166,7 @@ img.floating-image {
 }
 
 .footer a {
-  color: #fff;
+  color: #aaa;
 }
 
 .footer-nav a {
@@ -326,18 +317,6 @@ img.floating-image {
   }
 }
 
-@media (min-width: 992px) {
-  .nav-mobile {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .nav-desktop {
-    display: none;
-  }
-}
-
 .subnav {
   display: none;
   padding: 15px 0px;
@@ -471,10 +450,6 @@ h2.contact-title {
 }
 
 @media (max-width: 992px) {
-  #home .navbar-brand {
-    display: none;
-  }
-
   .nav-mobile {
     width: 100%;
   }
@@ -499,9 +474,9 @@ h2.contact-title {
 }
 
 .header {
+  margin-top: 150px;
   padding: 40px 0;
   text-align: center;
-  margin-top: 155px;
 }
 
 .header h1 {
@@ -509,7 +484,7 @@ h2.contact-title {
 }
 
 .secondary-bg {
-  background: #e7eee7;
+  background: #f5f5f5;
   color: #333;
 }
 
@@ -620,7 +595,7 @@ h3 {
 }
 
 .secondary-bg h1, .secondary-bg h2 {
-  color: #333;
+  color: #3c1053;
 }
 
 h5 {
@@ -792,5 +767,8 @@ input, textarea {
 
 .partner img {
   height: 150px;
-  opacity: 0.6;
+}
+
+#home .partner img {
+  opacity: 0.7;
 }

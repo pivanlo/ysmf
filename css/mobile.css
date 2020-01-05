@@ -103,3 +103,52 @@ form {
   grid-column-gap: 30px;
   padding: 0 20px;
 }
+
+#logo img {
+  margin: 20px auto;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+.hero {
+  position: static;
+  height: 500px;
+  background-image: url("../images/woman-white-wall-2k-mobile.jpg");
+  background-position: 50% 50%;
+}
+
+.navbar {
+  position: relative;
+  top: 0px;
+}
+
+.navbar-top {
+  position: static;
+}
+
+.hero-heading {
+  display: none;
+}
+
+.navbar-nav a {
+  padding: 10px 0;
+}
+
+#hero-mobile {
+  padding: 20px;
+  background-color: #df678c;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#vision, #mission {
+  padding-top: 40px;
+}
+
+.container {
+  padding: 0 20px;
+}

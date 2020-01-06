@@ -225,7 +225,7 @@
   z-index: 2;
 }
 
-.navbar li {
+.nav-item.active {
   position: relative;
   z-index: 3;
 }

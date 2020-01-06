@@ -98,7 +98,6 @@
   height: 120px;
   width: 100%;
   background-color: #3c1053;
-  z-index: 1;
   top: 50px;
   padding: 0 50px;
 }
@@ -108,7 +107,7 @@
   line-height: 120px;
   color: #fff;
   font-weight: bold;
-  padding: 0 12px;
+  padding: 0 15px;
 }
 
 #logo img {
@@ -191,4 +190,46 @@
 
 .section p {
   margin-bottom: 20px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  left: 50%;
+  width: 250px;
+  margin-left: -125px;
+  margin-top:  -20px;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 3;
+}
+
+.navbar .dropdown-item {
+  display: block;
+  color: #3c1053;
+  line-height: 60px;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #3c1053;
+  color: #fff;
+}
+
+.dropdown-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.navbar li {
+  position: relative;
+  z-index: 3;
+}
+
+.nav-item svg {
+  margin-left: 5px;
 }

@@ -48,7 +48,6 @@ p {
   position: absolute;
   width: 100%;
   background-color: #3c1053;
-  z-index: 1;
   top: 50px;
 }
 

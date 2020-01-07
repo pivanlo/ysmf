@@ -18,9 +18,11 @@
       <div class="container">
         <div style="font-size:14px;">
           <i class="fas fa-phone" style="margin-right:2px;"></i>
-          <span style="margin-right:30px;">+255 737 235137</span>
-          <i class="fas fa-envelope" style="margin-right:2px;"></i>
-          <a href="mailto:info@ysmf.org">info@ysmf.org</a>
+          <a style="margin-right:30px;" href="tel:+255 737 235137">+255 737 235137</a>
+          <span id="navbar-top-email">
+            <i class="fas fa-envelope" style="margin-right:2px;"></i>
+            <a href="mailto:info@ysmf.org">info@ysmf.org</a>
+          </span>
         </div>
         <div>
           <a href="https://www.facebook.com/www.ysmf.org" target="_blank" style="margin-right:30px;"><i class="fab fa-facebook-f"></i></a>
@@ -38,7 +40,10 @@
 
         <div class="navbar-nav-scroll nav-mobile">
           <div class="navbar-nav bd-navbar-nav flex-row">
-            <a class="nav-item nav-link" href="#">Who we are</a>
+            <a class="nav-item nav-link" href="#" data-subnav-id="who-we-are-subnav">
+              <span>Who we are</span>
+              <i class="fas fa-caret-down"></i>
+            </a>
             <a class="nav-item nav-link" href="#">What we do</a>
             <a class="nav-item nav-link" href="#">Programmes</a>
             <a class="nav-item nav-link" href="#">Volunteering</a>
@@ -69,6 +74,13 @@
           </ul>
         </div>
       </div>
+    </div>
+
+    <div class="subnav" id="who-we-are-subnav">
+      <a href="founders-message.html">Founder's message</a>
+      <a href="our-history.html">Our history</a>
+      <a href="problem-statement.html">Problem statement</a>
+      <a href="partners.html">Our partners</a>
     </div>
 
     <div id="founders-message-title" class="header secondary-bg">
@@ -123,5 +135,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/desktop-navbar.js"></script>
+    <script src="js/mobile-navbar.js"></script>
 
 </body></html>

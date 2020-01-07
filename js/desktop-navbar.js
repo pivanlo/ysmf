@@ -5,7 +5,9 @@ $(document).ready(function () {
     if ($target.is('.nav-item')) {
       $target.addClass('active');
       $('.dropdown-menu').hide();
-      $('body').append('<div class="dropdown-backdrop"></div>');
+      if (!$('.dropdown-backdrop').length) {
+        $('body').append('<div class="dropdown-backdrop"></div>');
+      }
       $target.next('.dropdown-menu').show();
     }
   });

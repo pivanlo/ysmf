@@ -226,3 +226,22 @@ h2 {
 #mobile-partners-table th, #mobile-partners-table td {
   text-align: center; 
 }
+
+.subnav {
+  padding: 10px 0;
+  background: #4a1467;
+  display: none;
+}
+
+.subnav a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.section {
+  padding: 50px 25px;
+}

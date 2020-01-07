@@ -41,7 +41,7 @@ h2 {
 }
 
 .header {
-  padding: 60px 0;
+  padding: 50px 25px;
 }
 
 .team-member-title {
@@ -177,18 +177,23 @@ h2 {
 
 #mission {
   padding: 50px 25px;
-}`
+}
 
 #message img {
-  max-width: 200px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  width: 50%;
+  max-width: 200px;
+  margin: 0 auto 50px;
+  border-radius: 99px;
+}
+
+#message .message-arrow {
+  display: none;
 }
 
 #message>div {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .footer-heading {

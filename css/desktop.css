@@ -44,10 +44,6 @@
   grid-column: 6 / 12;
 }
 
-.team-member-card {
-  /*grid-column: 1 / 5;*/
-}
-
 .team-container {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
@@ -241,4 +237,9 @@
 
 #mobile-partners-table {
   display: none;
+}
+
+#founders-message #message img {
+  width: 100%;
+  border-radius: 99px;
 }

@@ -20,6 +20,10 @@ p {
   margin: 0;
 }
 
+a {
+  color: #3c1053;
+}
+
 .navbar-top {
   position: absolute;
   height: 50px;

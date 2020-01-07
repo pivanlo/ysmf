@@ -177,11 +177,7 @@ h2 {
 
 #mission {
   padding: 50px 25px;
-}
-
-#partners-container {
-  padding-top: 30px;
-}
+}`
 
 #message img {
   max-width: 200px;
@@ -217,4 +213,16 @@ h2 {
 
 .contact-form {
   padding: 25px;
+}
+
+#desktop-partners-table {
+  display: none;
+}
+
+#partners-container {
+  padding: 50px 25px;
+}
+
+#mobile-partners-table th, #mobile-partners-table td {
+  text-align: center; 
 }

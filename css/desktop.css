@@ -237,3 +237,7 @@
 .nav-item svg {
   margin-left: 5px;
 }
+
+#mobile-partners-table {
+  display: none;
+}

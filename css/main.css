@@ -337,7 +337,6 @@ img.floating-image {
 .contact-text {
   color: #a8b3ba;
   font-size: 16px;
-  margin-bottom: 30px;
 }
 
 .contact-text-white {
@@ -360,8 +359,7 @@ img.floating-image {
 h2.contact-title {
   font-size: 30px;
   color: #fff;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 @media (max-width: 576px) {

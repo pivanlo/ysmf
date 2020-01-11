@@ -248,3 +248,20 @@
   width: 100%;
   border-radius: 99px;
 }
+
+.founders-message-container {
+  padding:50px 25px;
+  display:grid;
+  grid-template-columns:800px auto;
+  grid-column-gap:25px;
+}
+
+.founders-message-text {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.founders-message-image {
+  grid-row: 1;
+  grid-column: 2;
+}

@@ -254,3 +254,12 @@ h2 {
 .nav-item {
   cursor: pointer;
 }
+
+.founders-message-container {
+  padding:50px 25px;
+}
+
+.founders-message-image {
+  margin: 0 auto 25px;
+  max-width: 300px;
+}

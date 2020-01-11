@@ -835,3 +835,7 @@ tr:nth-child(odd) {
 table a {
   font-weight: bold;
 }
+
+.founders-message-text p {
+  margin-bottom: 25px;
+}

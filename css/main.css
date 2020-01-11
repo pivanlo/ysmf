@@ -81,9 +81,8 @@ a {
 .hero {
   position: absolute;
   top: 0;
-  background-image: url("../images/woman-white-wall-2k.jpg");
+  background-image: url("../images/mom-and-child-crop.jpg");
   background-size: cover;
-  background-position: -150px 0px;
   height: 100vh;
   width: 100%;
   z-index: -1;
@@ -544,6 +543,10 @@ h2.contact-title {
 .grid-12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-1 {
+  display: grid;
 }
 
 .grid-3 {

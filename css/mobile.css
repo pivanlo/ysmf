@@ -110,9 +110,9 @@ h2 {
 
 .hero {
   position: static;
-  height: 500px;
-  background-image: url("../images/woman-white-wall-2k-mobile.jpg");
-  background-position: 50% 50%;
+  height: 400px;
+  background-image: url("../images/mom-and-child-crop-mobile.jpg");
+  background-position: 50% 10%;
 }
 
 .navbar {

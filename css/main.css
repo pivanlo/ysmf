@@ -35,6 +35,10 @@ a {
   padding: 0 50px;
 }
 
+.section p {
+  margin-bottom: 20px;
+}
+
 .navbar-top a {
   color: #fff;
 }

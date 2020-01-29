@@ -132,6 +132,12 @@
   margin-top: 100vh;
   width: 800px;
   padding: 50px 0;
+  text-align: center;
+}
+
+#founders-preview {
+  padding: 50px 0;
+  width: 800px;
 }
 
 #vision {

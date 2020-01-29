@@ -126,11 +126,11 @@ img.floating-image {
 }
 
 .btn {
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   border: none;
   padding: 15px 20px;
   background-color: #3c1053;
-  font-size: 20px;
   font-weight: bold;
 }
 
@@ -854,4 +854,24 @@ p a {
 ul {
   list-style-type: none;
   padding-left: 26px;
+}
+
+#founders-message-preview::after {
+  content: "";
+  display: block;
+  height: 50px;
+  position: relative;
+  margin-top: -50px;
+  z-index: 2;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,255,255,1));
+}
+
+a.btn {
+  text-decoration: none;
+  display: inline-block;
+  line-height: normal;
+}
+
+a.btn:hover {
+  background-color: #df678c;
 }

@@ -1,7 +1,7 @@
 $(document).ready(function () {
   
-  $('.nav-item').hover(function(event) {
-    var $target = $(event.target);
+  $('.nav-item').click(function(event) {
+    var $target = $(event.currentTarget);
     if ($target.is('.nav-item')) {
       $target.addClass('active');
       $('.dropdown-menu').hide();
@@ -12,7 +12,7 @@ $(document).ready(function () {
     }
   });
   
-  $('*').on('mouseover', '.dropdown-backdrop', function () {
+  $('*').on('click', '.dropdown-backdrop', function () {
     $('.dropdown-menu').hide();
     $('.dropdown-backdrop').remove();
     $('.nav-item').removeClass('active');

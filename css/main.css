@@ -1,7 +1,11 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #fff;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 div, p {
@@ -14,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #666;
+  color: #555;
   font-size: 16px;
   line-height: 30px;
   margin: 0;
@@ -153,6 +157,7 @@ img.floating-image {
 }
 
 .footer-heading {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -361,7 +366,6 @@ img.floating-image {
 h2.contact-title {
   font-size: 30px;
   color: #fff;
-  /*margin-bottom: 30px;*/
 }
 
 @media (max-width: 576px) {
@@ -599,6 +603,7 @@ h5 {
 }
 
 .navbar a {
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
@@ -692,8 +697,7 @@ input, textarea {
   background-clip: padding-box;
   will-change: transform;
   display: none;
-/*  transform: translate3d(375px, 3026px, 0px);
-*/}
+}
 
 .popover-body>* {
   vertical-align: middle;
@@ -852,7 +856,6 @@ p a {
 }
 
 ul {
-  list-style-type: none;
   padding-left: 26px;
 }
 
